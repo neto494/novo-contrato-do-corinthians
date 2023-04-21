@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'josefin Sans', sans-serif;
+}
+ .background{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+ }
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav h2{
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+span{
+    color: rgb(218, 9, 9);
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+    list-style-type: none;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+nav ul li a:hover{
+    color: rgb(207, 30, 30);
+    transform: scale(1.2);
+}
+  
+.btn{
+    background-color: rgb(245, 0, 0);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.Main{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50);
+}
+
+h4{
+    color: rgb(233, 0, 0);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 85px;
+}
+
+h3{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.Container-btn form{
+    width: 366px;
+    max-width: 100%;
+    position: relative;
+}
+
+.Container-btn form input:first-child{
+      display: inline-block;
+      width: 100%;
+      padding: 14px 130px 14px 15px;
+      border-radius: 40px;
+      outline: none;
+}
+
+.Container-btn form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 40px;
+    border-color: #F9004D;
+    color: rgb(255, 42, 42);
+    box-shadow: 0px 0px 15px #880303;
+    right: 6px;
+    top: 6px;
+} 
